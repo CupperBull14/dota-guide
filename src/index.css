@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --attr-color: theme('colors.gold.DEFAULT');
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg font-sans text-ink antialiased;
+    background-image:
+      radial-gradient(1200px 600px at 80% -10%, rgba(194, 60, 42, 0.12), transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, rgba(200, 170, 110, 0.07), transparent 60%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-wide;
+  }
+
+  ::selection {
+    background: rgba(194, 60, 42, 0.45);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.gold.DEFAULT');
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  /* Кастомный скроллбар */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.line.strong') transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: theme('colors.line.strong');
+    border-radius: 999px;
+    border: 2px solid theme('colors.bg.DEFAULT');
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-line bg-panel/90 shadow-panel;
+  }
+
+  .text-gold-gradient {
+    @apply bg-gold-sheen bg-clip-text text-transparent;
+  }
+
+  .divider-ornament {
+    @apply flex items-center gap-3 text-gold/70;
+  }
+  .divider-ornament::before,
+  .divider-ornament::after {
+    content: '';
+    @apply h-px flex-1 bg-gradient-to-r from-transparent via-gold/40 to-transparent;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-gold focus:px-4 focus:py-2 focus:font-semibold focus:text-bg;
+  }
+}
+
+/* Интерактивная карта: подсветка зон и маркеров при наведении и фокусе с клавиатуры */
+.map-zone:not([aria-pressed='true']):hover,
+.map-zone:not([aria-pressed='true']):hover .map-zone-shape {
+  fill-opacity: 0.24;
+  stroke-opacity: 0.9;
+}
+.map-zone:focus-visible,
+.map-zone:focus-visible .map-zone-shape {
+  stroke: #e6cf9c;
+  stroke-opacity: 1;
+}
+.map-marker:hover .map-marker-dot,
+.map-marker:focus-visible .map-marker-dot {
+  stroke: #e6cf9c;
+  stroke-width: 5;
+}
+
+/* Уважаем системную настройку «уменьшить движение» для CSS-анимаций. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .motion-decor {
+    display: none !important;
+  }
+}

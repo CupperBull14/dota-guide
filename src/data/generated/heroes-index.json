@@ -1,0 +1,1890 @@
+[
+  {
+    "id": 102,
+    "key": "abaddon",
+    "slug": "abaddon",
+    "name": "Abaddon",
+    "attribute": "uni",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "support": 2,
+      "durable": 2
+    }
+  },
+  {
+    "id": 73,
+    "key": "alchemist",
+    "slug": "alchemist",
+    "name": "Alchemist",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "support": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 68,
+    "key": "ancient_apparition",
+    "slug": "ancient-apparition",
+    "name": "Ancient Apparition",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 1,
+    "key": "antimage",
+    "slug": "anti-mage",
+    "name": "Anti-Mage",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "nuker": 1,
+      "escape": 3
+    }
+  },
+  {
+    "id": 113,
+    "key": "arc_warden",
+    "slug": "arc-warden",
+    "name": "Arc Warden",
+    "attribute": "uni",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "nuker": 1,
+      "escape": 3
+    }
+  },
+  {
+    "id": 2,
+    "key": "axe",
+    "slug": "axe",
+    "name": "Axe",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "disabler": 2,
+      "durable": 3,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 3,
+    "key": "bane",
+    "slug": "bane",
+    "name": "Bane",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 3,
+      "durable": 1
+    }
+  },
+  {
+    "id": 65,
+    "key": "batrider",
+    "slug": "batrider",
+    "name": "Batrider",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "disabler": 2,
+      "escape": 1,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 38,
+    "key": "beastmaster",
+    "slug": "beastmaster",
+    "name": "Beastmaster",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 4,
+    "key": "bloodseeker",
+    "slug": "bloodseeker",
+    "name": "Bloodseeker",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 62,
+    "key": "bounty_hunter",
+    "slug": "bounty-hunter",
+    "name": "Bounty Hunter",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 78,
+    "key": "brewmaster",
+    "slug": "brewmaster",
+    "name": "Brewmaster",
+    "attribute": "uni",
+    "complexity": 3,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 99,
+    "key": "bristleback",
+    "slug": "bristleback",
+    "name": "Bristleback",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "durable": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 61,
+    "key": "broodmother",
+    "slug": "broodmother",
+    "name": "Broodmother",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "escape": 3,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 96,
+    "key": "centaur",
+    "slug": "centaur-warrunner",
+    "name": "Centaur Warrunner",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 3,
+      "escape": 1,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 81,
+    "key": "chaos_knight",
+    "slug": "chaos-knight",
+    "name": "Chaos Knight",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "disabler": 2,
+      "durable": 2,
+      "pusher": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 66,
+    "key": "chen",
+    "slug": "chen",
+    "name": "Chen",
+    "attribute": "int",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 56,
+    "key": "clinkz",
+    "slug": "clinkz",
+    "name": "Clinkz",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "escape": 3,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 51,
+    "key": "rattletrap",
+    "slug": "clockwerk",
+    "name": "Clockwerk",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 1,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 5,
+    "key": "crystal_maiden",
+    "slug": "crystal-maiden",
+    "name": "Crystal Maiden",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 2,
+      "disabler": 2
+    }
+  },
+  {
+    "id": 55,
+    "key": "dark_seer",
+    "slug": "dark-seer",
+    "name": "Dark Seer",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "disabler": 1,
+      "escape": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 119,
+    "key": "dark_willow",
+    "slug": "dark-willow",
+    "name": "Dark Willow",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 135,
+    "key": "dawnbreaker",
+    "slug": "dawnbreaker",
+    "name": "Dawnbreaker",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "durable": 2
+    }
+  },
+  {
+    "id": 50,
+    "key": "dazzle",
+    "slug": "dazzle",
+    "name": "Dazzle",
+    "attribute": "uni",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 1,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 43,
+    "key": "death_prophet",
+    "slug": "death-prophet",
+    "name": "Death Prophet",
+    "attribute": "uni",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 87,
+    "key": "disruptor",
+    "slug": "disruptor",
+    "name": "Disruptor",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 69,
+    "key": "doom_bringer",
+    "slug": "doom",
+    "name": "Doom",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 49,
+    "key": "dragon_knight",
+    "slug": "dragon-knight",
+    "name": "Dragon Knight",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "pusher": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 6,
+    "key": "drow_ranger",
+    "slug": "drow-ranger",
+    "name": "Drow Ranger",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 107,
+    "key": "earth_spirit",
+    "slug": "earth-spirit",
+    "name": "Earth Spirit",
+    "attribute": "str",
+    "complexity": 3,
+    "attack": "melee",
+    "roles": {
+      "nuker": 2,
+      "disabler": 1,
+      "durable": 1,
+      "escape": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 7,
+    "key": "earthshaker",
+    "slug": "earthshaker",
+    "name": "Earthshaker",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "support": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 103,
+    "key": "elder_titan",
+    "slug": "elder-titan",
+    "name": "Elder Titan",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 106,
+    "key": "ember_spirit",
+    "slug": "ember-spirit",
+    "name": "Ember Spirit",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "disabler": 1,
+      "escape": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 58,
+    "key": "enchantress",
+    "slug": "enchantress",
+    "name": "Enchantress",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "disabler": 1,
+      "durable": 1,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 33,
+    "key": "enigma",
+    "slug": "enigma",
+    "name": "Enigma",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "disabler": 2,
+      "pusher": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 41,
+    "key": "faceless_void",
+    "slug": "faceless-void",
+    "name": "Faceless Void",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 2,
+      "durable": 1,
+      "escape": 1,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 121,
+    "key": "grimstroke",
+    "slug": "grimstroke",
+    "name": "Grimstroke",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 2,
+      "escape": 1
+    }
+  },
+  {
+    "id": 72,
+    "key": "gyrocopter",
+    "slug": "gyrocopter",
+    "name": "Gyrocopter",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "nuker": 1,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 123,
+    "key": "hoodwink",
+    "slug": "hoodwink",
+    "name": "Hoodwink",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 59,
+    "key": "huskar",
+    "slug": "huskar",
+    "name": "Huskar",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "durable": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 74,
+    "key": "invoker",
+    "slug": "invoker",
+    "name": "Invoker",
+    "attribute": "int",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 3,
+      "disabler": 2,
+      "escape": 1,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 91,
+    "key": "wisp",
+    "slug": "io",
+    "name": "Io",
+    "attribute": "uni",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 64,
+    "key": "jakiro",
+    "slug": "jakiro",
+    "name": "Jakiro",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 1,
+      "nuker": 2,
+      "disabler": 1,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 8,
+    "key": "juggernaut",
+    "slug": "juggernaut",
+    "name": "Juggernaut",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "escape": 1,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 90,
+    "key": "keeper_of_the_light",
+    "slug": "keeper-of-the-light",
+    "name": "Keeper of the Light",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 2,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 145,
+    "key": "kez",
+    "slug": "kez",
+    "name": "Kez",
+    "attribute": "agi",
+    "complexity": 3,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 23,
+    "key": "kunkka",
+    "slug": "kunkka",
+    "name": "Kunkka",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "support": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 155,
+    "key": "largo",
+    "slug": "largo",
+    "name": "Largo",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "support": 3,
+      "disabler": 1,
+      "durable": 2
+    }
+  },
+  {
+    "id": 104,
+    "key": "legion_commander",
+    "slug": "legion-commander",
+    "name": "Legion Commander",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 52,
+    "key": "leshrac",
+    "slug": "leshrac",
+    "name": "Leshrac",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "nuker": 3,
+      "disabler": 1,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 31,
+    "key": "lich",
+    "slug": "lich",
+    "name": "Lich",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 2
+    }
+  },
+  {
+    "id": 54,
+    "key": "life_stealer",
+    "slug": "lifestealer",
+    "name": "Lifestealer",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "durable": 2,
+      "escape": 1
+    }
+  },
+  {
+    "id": 25,
+    "key": "lina",
+    "slug": "lina",
+    "name": "Lina",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "nuker": 3,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 26,
+    "key": "lion",
+    "slug": "lion",
+    "name": "Lion",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 3,
+      "disabler": 3,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 80,
+    "key": "lone_druid",
+    "slug": "lone-druid",
+    "name": "Lone Druid",
+    "attribute": "agi",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "durable": 1,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 48,
+    "key": "luna",
+    "slug": "luna",
+    "name": "Luna",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 77,
+    "key": "lycan",
+    "slug": "lycan",
+    "name": "Lycan",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "durable": 1,
+      "escape": 1,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 97,
+    "key": "magnataur",
+    "slug": "magnus",
+    "name": "Magnus",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 2,
+      "escape": 1,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 136,
+    "key": "marci",
+    "slug": "marci",
+    "name": "Marci",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "disabler": 1,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 129,
+    "key": "mars",
+    "slug": "mars",
+    "name": "Mars",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "disabler": 2,
+      "durable": 3,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 94,
+    "key": "medusa",
+    "slug": "medusa",
+    "name": "Medusa",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "disabler": 1,
+      "durable": 1
+    }
+  },
+  {
+    "id": 82,
+    "key": "meepo",
+    "slug": "meepo",
+    "name": "Meepo",
+    "attribute": "agi",
+    "complexity": 3,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 2,
+      "pusher": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 9,
+    "key": "mirana",
+    "slug": "mirana",
+    "name": "Mirana",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 114,
+    "key": "monkey_king",
+    "slug": "monkey-king",
+    "name": "Monkey King",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "escape": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 10,
+    "key": "morphling",
+    "slug": "morphling",
+    "name": "Morphling",
+    "attribute": "agi",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 2,
+      "escape": 3
+    }
+  },
+  {
+    "id": 138,
+    "key": "muerta",
+    "slug": "muerta",
+    "name": "Muerta",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "nuker": 2,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 89,
+    "key": "naga_siren",
+    "slug": "naga-siren",
+    "name": "Naga Siren",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "support": 1,
+      "disabler": 2,
+      "escape": 1,
+      "pusher": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 53,
+    "key": "furion",
+    "slug": "natures-prophet",
+    "name": "Nature's Prophet",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "escape": 1,
+      "pusher": 3
+    }
+  },
+  {
+    "id": 36,
+    "key": "necrolyte",
+    "slug": "necrophos",
+    "name": "Necrophos",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 2,
+      "disabler": 1,
+      "durable": 1
+    }
+  },
+  {
+    "id": 60,
+    "key": "night_stalker",
+    "slug": "night-stalker",
+    "name": "Night Stalker",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 88,
+    "key": "nyx_assassin",
+    "slug": "nyx-assassin",
+    "name": "Nyx Assassin",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 2,
+      "disabler": 2,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 84,
+    "key": "ogre_magi",
+    "slug": "ogre-magi",
+    "name": "Ogre Magi",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 2,
+      "durable": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 57,
+    "key": "omniknight",
+    "slug": "omniknight",
+    "name": "Omniknight",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "durable": 1
+    }
+  },
+  {
+    "id": 111,
+    "key": "oracle",
+    "slug": "oracle",
+    "name": "Oracle",
+    "attribute": "int",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 3,
+      "disabler": 2,
+      "escape": 1
+    }
+  },
+  {
+    "id": 76,
+    "key": "obsidian_destroyer",
+    "slug": "outworld-destroyer",
+    "name": "Outworld Destroyer",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 120,
+    "key": "pangolier",
+    "slug": "pangolier",
+    "name": "Pangolier",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "durable": 1,
+      "escape": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 44,
+    "key": "phantom_assassin",
+    "slug": "phantom-assassin",
+    "name": "Phantom Assassin",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "escape": 1
+    }
+  },
+  {
+    "id": 12,
+    "key": "phantom_lancer",
+    "slug": "phantom-lancer",
+    "name": "Phantom Lancer",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "escape": 2,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 110,
+    "key": "phoenix",
+    "slug": "phoenix",
+    "name": "Phoenix",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 3,
+      "disabler": 1,
+      "escape": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 137,
+    "key": "primal_beast",
+    "slug": "primal-beast",
+    "name": "Primal Beast",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "disabler": 2,
+      "durable": 3,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 13,
+    "key": "puck",
+    "slug": "puck",
+    "name": "Puck",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "nuker": 2,
+      "disabler": 3,
+      "escape": 3,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 14,
+    "key": "pudge",
+    "slug": "pudge",
+    "name": "Pudge",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 45,
+    "key": "pugna",
+    "slug": "pugna",
+    "name": "Pugna",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "nuker": 2,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 39,
+    "key": "queenofpain",
+    "slug": "queen-of-pain",
+    "name": "Queen of Pain",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 3,
+      "escape": 3
+    }
+  },
+  {
+    "id": 15,
+    "key": "razor",
+    "slug": "razor",
+    "name": "Razor",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "durable": 2,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 32,
+    "key": "riki",
+    "slug": "riki",
+    "name": "Riki",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 131,
+    "key": "ringmaster",
+    "slug": "ringmaster",
+    "name": "Ringmaster",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 86,
+    "key": "rubick",
+    "slug": "rubick",
+    "name": "Rubick",
+    "attribute": "int",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 16,
+    "key": "sand_king",
+    "slug": "sand-king",
+    "name": "Sand King",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "support": 1,
+      "nuker": 2,
+      "disabler": 2,
+      "escape": 2,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 79,
+    "key": "shadow_demon",
+    "slug": "shadow-demon",
+    "name": "Shadow Demon",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 11,
+    "key": "nevermore",
+    "slug": "shadow-fiend",
+    "name": "Shadow Fiend",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "nuker": 3
+    }
+  },
+  {
+    "id": 27,
+    "key": "shadow_shaman",
+    "slug": "shadow-shaman",
+    "name": "Shadow Shaman",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 2,
+      "disabler": 3,
+      "pusher": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 75,
+    "key": "silencer",
+    "slug": "silencer",
+    "name": "Silencer",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 101,
+    "key": "skywrath_mage",
+    "slug": "skywrath-mage",
+    "name": "Skywrath Mage",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 3,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 28,
+    "key": "slardar",
+    "slug": "slardar",
+    "name": "Slardar",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "durable": 2,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 93,
+    "key": "slark",
+    "slug": "slark",
+    "name": "Slark",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "disabler": 1,
+      "escape": 3
+    }
+  },
+  {
+    "id": 128,
+    "key": "snapfire",
+    "slug": "snapfire",
+    "name": "Snapfire",
+    "attribute": "uni",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 1,
+      "nuker": 3,
+      "disabler": 1,
+      "escape": 1
+    }
+  },
+  {
+    "id": 35,
+    "key": "sniper",
+    "slug": "sniper",
+    "name": "Sniper",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "nuker": 1
+    }
+  },
+  {
+    "id": 67,
+    "key": "spectre",
+    "slug": "spectre",
+    "name": "Spectre",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "durable": 1,
+      "escape": 1
+    }
+  },
+  {
+    "id": 71,
+    "key": "spirit_breaker",
+    "slug": "spirit-breaker",
+    "name": "Spirit Breaker",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "disabler": 2,
+      "durable": 2,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 17,
+    "key": "storm_spirit",
+    "slug": "storm-spirit",
+    "name": "Storm Spirit",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 18,
+    "key": "sven",
+    "slug": "sven",
+    "name": "Sven",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 105,
+    "key": "techies",
+    "slug": "techies",
+    "name": "Techies",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "nuker": 3,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 46,
+    "key": "templar_assassin",
+    "slug": "templar-assassin",
+    "name": "Templar Assassin",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "escape": 1
+    }
+  },
+  {
+    "id": 109,
+    "key": "terrorblade",
+    "slug": "terrorblade",
+    "name": "Terrorblade",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "nuker": 1,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 29,
+    "key": "tidehunter",
+    "slug": "tidehunter",
+    "name": "Tidehunter",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 1,
+      "nuker": 1,
+      "disabler": 2,
+      "durable": 3,
+      "initiator": 3
+    }
+  },
+  {
+    "id": 98,
+    "key": "shredder",
+    "slug": "timbersaw",
+    "name": "Timbersaw",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "nuker": 3,
+      "durable": 2,
+      "escape": 2
+    }
+  },
+  {
+    "id": 34,
+    "key": "tinker",
+    "slug": "tinker",
+    "name": "Tinker",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 3,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 19,
+    "key": "tiny",
+    "slug": "tiny",
+    "name": "Tiny",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 3,
+      "nuker": 2,
+      "disabler": 1,
+      "durable": 2,
+      "pusher": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 83,
+    "key": "treant",
+    "slug": "treant-protector",
+    "name": "Treant Protector",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "support": 3,
+      "disabler": 1,
+      "durable": 1,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 95,
+    "key": "troll_warlord",
+    "slug": "troll-warlord",
+    "name": "Troll Warlord",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 3,
+      "disabler": 1,
+      "durable": 1,
+      "pusher": 2
+    }
+  },
+  {
+    "id": 100,
+    "key": "tusk",
+    "slug": "tusk",
+    "name": "Tusk",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "nuker": 1,
+      "disabler": 2,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 108,
+    "key": "abyssal_underlord",
+    "slug": "underlord",
+    "name": "Underlord",
+    "attribute": "str",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "support": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 1,
+      "escape": 2
+    }
+  },
+  {
+    "id": 85,
+    "key": "undying",
+    "slug": "undying",
+    "name": "Undying",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 1,
+      "durable": 2
+    }
+  },
+  {
+    "id": 70,
+    "key": "ursa",
+    "slug": "ursa",
+    "name": "Ursa",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "disabler": 1,
+      "durable": 1
+    }
+  },
+  {
+    "id": 20,
+    "key": "vengefulspirit",
+    "slug": "vengeful-spirit",
+    "name": "Vengeful Spirit",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 1,
+      "disabler": 2,
+      "escape": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 40,
+    "key": "venomancer",
+    "slug": "venomancer",
+    "name": "Venomancer",
+    "attribute": "uni",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 2,
+      "nuker": 1,
+      "disabler": 1,
+      "pusher": 1,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 47,
+    "key": "viper",
+    "slug": "viper",
+    "name": "Viper",
+    "attribute": "agi",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "disabler": 1,
+      "durable": 2,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 92,
+    "key": "visage",
+    "slug": "visage",
+    "name": "Visage",
+    "attribute": "uni",
+    "complexity": 3,
+    "attack": "ranged",
+    "roles": {
+      "support": 1,
+      "nuker": 2,
+      "disabler": 1,
+      "durable": 1,
+      "pusher": 1
+    }
+  },
+  {
+    "id": 126,
+    "key": "void_spirit",
+    "slug": "void-spirit",
+    "name": "Void Spirit",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "nuker": 2,
+      "disabler": 1,
+      "escape": 3
+    }
+  },
+  {
+    "id": 37,
+    "key": "warlock",
+    "slug": "warlock",
+    "name": "Warlock",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 1,
+      "disabler": 1,
+      "initiator": 2
+    }
+  },
+  {
+    "id": 63,
+    "key": "weaver",
+    "slug": "weaver",
+    "name": "Weaver",
+    "attribute": "agi",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 2,
+      "escape": 3
+    }
+  },
+  {
+    "id": 21,
+    "key": "windrunner",
+    "slug": "windranger",
+    "name": "Windranger",
+    "attribute": "uni",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "support": 1,
+      "nuker": 1,
+      "disabler": 1,
+      "escape": 1
+    }
+  },
+  {
+    "id": 112,
+    "key": "winter_wyvern",
+    "slug": "winter-wyvern",
+    "name": "Winter Wyvern",
+    "attribute": "int",
+    "complexity": 2,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 1,
+      "disabler": 2
+    }
+  },
+  {
+    "id": 30,
+    "key": "witch_doctor",
+    "slug": "witch-doctor",
+    "name": "Witch Doctor",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "support": 3,
+      "nuker": 2,
+      "disabler": 1
+    }
+  },
+  {
+    "id": 42,
+    "key": "skeleton_king",
+    "slug": "wraith-king",
+    "name": "Wraith King",
+    "attribute": "str",
+    "complexity": 1,
+    "attack": "melee",
+    "roles": {
+      "carry": 2,
+      "support": 1,
+      "disabler": 2,
+      "durable": 3,
+      "initiator": 1
+    }
+  },
+  {
+    "id": 22,
+    "key": "zuus",
+    "slug": "zeus",
+    "name": "Zeus",
+    "attribute": "int",
+    "complexity": 1,
+    "attack": "ranged",
+    "roles": {
+      "carry": 1,
+      "nuker": 3
+    }
+  }
+]

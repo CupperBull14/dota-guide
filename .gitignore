@@ -1,0 +1,24 @@
+# Зависимости и сборка
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Логи
+*.log
+npm-debug.log*
+
+# Окружение и секреты (на всякий случай)
+.env
+.env.*
+!.env.example
+
+# Редакторы и системные файлы
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Архивы с этапами разработки
+*.zip
